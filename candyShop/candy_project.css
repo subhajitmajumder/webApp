@@ -1,0 +1,91 @@
+body {
+    background: #f5d9df;
+    font-family: Quicksand, sans-serif;
+}
+
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.blurbe h2 {
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurbe p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+#mainNavbar.navbar-dark .navbar-brand {
+    color: #ea1c2c;
+}
+
+#mainNavbar {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #4B0082;
+
+}
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+
+}
+
+.navbar.scrolled {
+    background: rgb(222, 192, 222);
+    transition: background 600ms;
+}
+
+#headingGroup span {
+    color: rgb(190, 190, 190);
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+}
+/* we can access id with # */
+#headingGroup h1#first.display-3{
+    color: #9400d3; 
+}
+
+#headingGroup h1#second.display-3{
+    color: #4B0082; 
+}
+
+#headingGroup h1#third.display-3{
+    color: #0000ff; 
+}
+
+#headingGroup h1#fourth.display-3{
+    color: #00ff00; 
+}
+
+#headingGroup h1#fifth.display-3{
+    color: #ffff00; 
+}
+
+#headingGroup h1#sixth.display-3{
+    color: #ff7f00; 
+}
+
+#headingGroup h1#seventh.display-3{
+    color: #ff0000; 
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2rem;
+    }
+
+}
+

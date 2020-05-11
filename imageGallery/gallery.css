@@ -1,0 +1,27 @@
+body{
+    padding-top: 70px;
+}
+
+.jumbotron{
+    color: #2c3e50;
+    background: #e5e6e7;
+    
+}
+
+.navbar-inverse {
+    background: #2c3e50;
+}
+
+a{
+    color: white;
+}
+
+/* As a tag is less specific than navbar a tag thats why we need to be more specific while changing the text color in the navbar */
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}

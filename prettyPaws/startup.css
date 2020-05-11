@@ -1,0 +1,56 @@
+body {
+    background: url(https://images.unsplash.com/photo-1513358871990-102f3297ee12?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+#contain {
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+/* We csn add the h1 h3 olor to body as other contains are more specific. */
+/* h1,h3 {
+    color: white;
+} */
+
+h1 {
+    font-weight: bold;
+    font-size: 5em;
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.navbar-default {
+    background: rgba(0,0,0,0.2);
+    border-color: rgba(255, 255, 255, 0.1);
+    /* border-width: 600px; */
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.navbar-default .navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 200;
+}
